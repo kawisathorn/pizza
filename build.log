@@ -1,0 +1,45 @@
+Logfile initialized
+[INFO] logfile = /Volumes/BOOTCAMP/SkyDrive/works/Mobile/the pizza place part 4/build.log
+[DEBUG] /Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py simulator the pizza place part 4 /Users/kawisathorn/adt-bundle-mac/android-sdk /Volumes/BOOTCAMP/SkyDrive/works/Mobile/the pizza place part 4 com.ronnieswietek.pizzaplace4 25 HVGA 
+[INFO] Building the pizza place part 4 for Android ... one moment
+[INFO] Titanium SDK version: 2.1.4 (11/09/12 12:46 51f2c64)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 60 seconds)
+[DEBUG] waited 61.612707 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
+[DEBUG] com.ronnieswietek.pizzaplace4 installed? False
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[TRACE] Generating Java Classes
+[ERROR] Exception occured while building Android project:
+[ERROR] Traceback (most recent call last):
+[ERROR]   File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py", line 2289, in <module>
+[ERROR]     s.build_and_run(False, avd_id, debugger_host=debugger_host)
+[ERROR]   File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py", line 2013, in build_and_run
+[ERROR]     True, project_dir = self.top_dir, include_all_ti_modules=include_all_ti_modules)
+[ERROR]   File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/android.py", line 302, in create
+[ERROR]     self.build_modules_info(resource_dir, app_bin_dir, include_all_ti_modules=include_all_ti_modules)
+[ERROR]   File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/android.py", line 170, in build_modules_info
+[ERROR]     compiler.compile(compile_bytecode=False, info_message=None)
+[ERROR]   File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/compiler.py", line 279, in compile
+[ERROR]     js_contents = self.make_function_from_file(fullpath)
+[ERROR]   File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/compiler.py", line 215, in make_function_from_file
+[ERROR]     file_contents = codecs.open(path,'r',encoding='utf-8').read()
+[ERROR]   File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 671, in read
+[ERROR]   File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/codecs.py", line 477, in read
+[ERROR] UnicodeDecodeError: 'utf8' codec can't decode byte 0xb0 in position 37: invalid start byte
+[DEBUG] signal caught: 15

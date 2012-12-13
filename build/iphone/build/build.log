@@ -1,0 +1,45 @@
+================================================================================
+Appcelerator Titanium Diagnostics Build Log
+The contents of this file are useful to send to Appcelerator Support if
+reporting an issue to help us understand your environment, build settings
+and aid in debugging. Please attach this log to any issue that you report.
+================================================================================
+
+Starting build at 12/08/12 13:18
+
+Build details:
+
+   timestamp=11/09/12 12:46
+   module_apiversion=2
+   version=2.1.4
+   githash=51f2c64
+
+
+Script arguments:
+   /Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/iphone/builder.py
+   simulator
+   6.0
+   /Volumes/BOOTCAMP/SkyDrive/works/Mobile/the pizza place part 4
+   com.ronnieswietek.pizzaplace4
+   the pizza place part 4
+   universal
+   iphone
+   
+
+Building from: /Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/iphone
+Platform: Darwin Kernel Version 11.4.2: Thu Aug 23 16:25:48 PDT 2012; root:xnu-1699.32.7~1/RELEASE_X86_64
+
+Xcode path is: /Applications/Xcode.app/Contents/Developer
+
+
+githash=51f2c64, existing_git_hash=51f2c64
+
+Exception detected in script:
+Traceback (most recent call last):
+  File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/iphone/builder.py", line 944, in main
+    softlink_for_simulator(project_dir,app_dir)
+  File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/iphone/compiler.py", line 179, in softlink_for_simulator
+    softlink_resources(resources_dir,app_dir)
+  File "/Users/kawisathorn/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/iphone/compiler.py", line 163, in softlink_resources
+    os.symlink(from_, to_)
+OSError: [Errno 17] File exists
