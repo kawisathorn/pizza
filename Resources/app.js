@@ -9,4 +9,3 @@ var main = Ti.UI.createWindow({
 	navBarHidden:true
 });
 main.open();
-
